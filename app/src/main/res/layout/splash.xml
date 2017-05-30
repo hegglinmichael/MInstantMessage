@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!--
+        This is an image for the splash screen
+    -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bubble"
+        android:src="@drawable/bubble"/>
+
+    <!--
+        This is the textView for the name of the app
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Michael's Instant Messaging!"
+        android:paddingLeft="40dp"
+        android:paddingRight="15dp"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="134dp" />
+
+</RelativeLayout>
